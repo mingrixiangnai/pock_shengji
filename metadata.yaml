@@ -1,0 +1,5 @@
+name: astrbot_plugin_pock_shengji # 这是你的插件的唯一识别名。
+desc: 戳一戳升级版，在群里被戳一戳时有概率发送表情包(支持动图)(概率可修改) # 插件简短描述
+version: v1.0 # 插件版本号。格式：v1.1.1 或者 v1.1
+author: mingrixiangnai  # 作者
+repo: https://github.com/mingrixiangnai/pock_shengji # 插件的仓库地址

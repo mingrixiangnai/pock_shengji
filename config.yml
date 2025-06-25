@@ -1,0 +1,32 @@
+# 戳一戳回复消息
+poke_responses:
+  - "别戳啦再戳就高潮啦~！<(－︿－)>"
+    "屁股都开花了还戳，我操你妈！"
+  - "别戳啦~！小豆豆好痒，感觉要长勾八了~"
+  - "哎呀，别戳啦，出淫水啦<(－︿－)>"
+  - "哎呀，还戳呀，逼都被戳烂了啦（＃￣～￣＃）"
+  - "别戳我啦，你要做什么！都喷水啦！！(ノω<。)ノ))☆.。"
+
+# 表情包 API 映射
+emoji_url_mapping:
+  咬: "https://api.lolimi.cn/API/face_suck/api.php"
+  捣: "https://api.lolimi.cn/API/face_pound/api.php"
+  玩: "https://api.lolimi.cn/API/face_play/api.php"
+  拍: "https://api.lolimi.cn/API/face_pat/api.php"
+  丢: "https://api.lolimi.cn/API/diu/api.php"
+  撕: "https://api.lolimi.cn/API/si/api.php"
+  爬: "https://api.lolimi.cn/API/pa/api.php"
+
+random_emoji_trigger_probability: 0.5  # 随机触发表情包的概率
+
+# 功能开关
+feature_switches:
+  poke_response_enabled: true  # 戳机器人回复功能开关
+  poke_back_enabled: true  # 戳回功能开关
+  emoji_trigger_enabled: true  # 触发表情包功能开关
+  local_image_enabled: true  # 本地图片功能开关
+
+# 戳 Bot 反击相关概率
+poke_back_probability: 0.5  # 戳 Bot 后反击的概率
+super_poke_probability: 0.1  # 超级加倍（多次戳回）的概率
+local_image_probability: 0.6  # 本地图片触发概率
